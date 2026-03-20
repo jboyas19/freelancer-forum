@@ -1,0 +1,66 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  width: 520px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.subtitle {
+  margin: 6px 0 14px 0;
+  font-size: 12px;
+}
+
+.table-wrap {
+  display: inline-block;
+  border: 1px solid #000;
+}
+
+table {
+  border-collapse: collapse;
+  width: 420px;
+  text-align: left;
+  font-size: 12px;
+}
+
+thead th {
+  padding: 4px 6px;
+  border-bottom: 2px solid #000;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+tbody td {
+  padding: 3px 6px;
+  border-bottom: 1px dotted #999;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+th,
+td {
+  border-right: 1px solid #000;
+}
+
+th:last-child,
+td:last-child {
+  border-right: none;
+}
+
+.rate {
+  white-space: nowrap;
+}
